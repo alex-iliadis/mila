@@ -27,7 +27,7 @@
 
 It's a word rooted in human connection — the act of reaching out, being heard, saying what matters. That's what Mila is for. Private conversations between real people, with no corporation in the middle listening.
 
-Not a product name. Not a brand exercise. A word that means *speak freely* — because now you can.
+Not a product name. Not a brand exercise. A word that means *speak freely*
 
 ---
 

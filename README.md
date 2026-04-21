@@ -5,6 +5,7 @@
 ### Private messaging, rebuilt from first principles.
 
 ![Status](https://img.shields.io/badge/status-coming%20soon-blueviolet?style=for-the-badge)
+![Rust](https://img.shields.io/badge/built%20with-Rust-f74c00?style=for-the-badge&logo=rust)
 ![Crypto](https://img.shields.io/badge/crypto-zero%20dependencies-ff6b6b?style=for-the-badge)
 ![Post Quantum](https://img.shields.io/badge/post--quantum-ready-00c9a7?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-open%20source-4ecdc4?style=for-the-badge)
@@ -30,6 +31,7 @@
 | Metadata-blind relay | ❌ | ❌ | ❌ | ✅ |
 | Keys encrypted on device | ⚠️ | ❌ | ✅ | ✅ |
 | E2E encrypted group calls | ❌ | ❌ | ✅ | ✅ |
+| Memory-safe codebase (Rust) | ❌ | ❌ | ❌ | ✅ |
 
 **WhatsApp** is owned by Meta — the largest surveillance advertising company on the planet. Every contact list, every "who talked to whom and when," feeds their data graph even if message content is encrypted.
 
@@ -62,6 +64,18 @@ Every cryptographic protocol is implemented **from scratch** using low-level pri
 - ⚛️ **PQXDH + ML-KEM** — Post-quantum key exchange
 
 No Signal library. No OpenSSL. No third-party black box to audit or trust. **The math is in the open, in the code, readable by anyone.**
+
+---
+
+### 🦀 Secure by Default — Built in Rust
+
+The entire Mila stack — server, desktop client, crypto engine, call engine — is written in **Rust**.
+
+The majority of critical security vulnerabilities in messaging apps (and software broadly) are **memory bugs**: buffer overflows, use-after-free, null pointer dereferences, data races. These are the bugs that get exploited. These are the CVEs. These are the headlines.
+
+Rust eliminates this entire class of vulnerability **at compile time**. Not with a runtime garbage collector, not with sanitizers, not with "best practices" — with a type system that makes memory-unsafe code impossible to ship. WhatsApp, Telegram, and Signal are built on C, C++, and Java/Kotlin/Swift stacks where these bugs are a constant threat.
+
+> In Rust, if it compiles, it doesn't have a memory vulnerability. That's not marketing — that's the language guarantee.
 
 ---
 

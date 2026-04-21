@@ -19,7 +19,7 @@
 
 ---
 
-## 🇬🇷 The Name
+## The Name
 
 **Mila** comes from the Greek word **Μίλα** *(míla)* — the imperative form of **μιλώ** *(miló)*, meaning *"to speak"* or *"to talk."*
 

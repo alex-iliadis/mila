@@ -19,6 +19,18 @@
 
 ---
 
+## 🇬🇷 The Name
+
+**Mila** comes from the Greek word **Μίλα** *(míla)* — the imperative form of **μιλώ** *(miló)*, meaning *"to speak"* or *"to talk."*
+
+**Μίλα** is what you say to someone when you want them to open up. *Speak. Talk to me. Say something.*
+
+It's a word rooted in human connection — the act of reaching out, being heard, saying what matters. That's what Mila is for. Private conversations between real people, with no corporation in the middle listening.
+
+Not a product name. Not a brand exercise. A word that means *speak freely* — because now you can.
+
+---
+
 ## 🚨 The Problem with Everyone Else
 
 | | WhatsApp | Telegram | Signal | **Mila** |
